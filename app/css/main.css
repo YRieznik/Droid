@@ -175,17 +175,17 @@ main {
 /* ---- isotope ---- */
 .grid {
   border: 1px solid #333;
-  float: none;
   margin: 0 auto;
   text-align: center;
   width: 70%;
   position: relative; }
   .grid .element-item {
-    position: relative;
-    margin: 10px;
-    overflow: hidden; }
+    margin: 10px; }
 
-.footer-block {
+.name {
+  font-size: 14px; }
+
+/*.footer-block {
   width: 100%;
   height: 50px;
   background-color: red;
@@ -193,113 +193,152 @@ main {
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 23px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
-.name {
-  margin: 0;
-  padding: 0; }
 
-.img-container_first_project {
+
+.image {
+  width: 100%;
+  height: 100%;
+
+}
+.wrapper {
+  width: auto;
+  height: auto;
+
+}
+/*.img-container_first_project {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_127-e1444819257327.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
-  transition: all 0.3s; }
-  .img-container_first_project:hover {
-    transform: scale(1.1); }
-
-.filter_size_first_project {
-  width: 298px;
-  height: 243px; }
-
-.img-container_creatix_mix {
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}*/
+/*.img-container_creatix_mix {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_095.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_creatix_mix {
   width: 298px;
-  height: 332px; }
-
+  height: 332px;
+}
 .img-container_revslider_gallery {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_big_image_038-e1444819339717.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_revslider_gallery {
   width: 298px;
-  height: 233px; }
+  height: 233px;
+}
 
 .img-container_before_after {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_039.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_before_after {
   width: 298px;
-  height: 332px; }
-
+  height: 332px;
+}
 .img-container_gallery_stacked {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_129-e1444819529369.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_gallery_stacked {
   width: 298px;
-  height: 290px; }
+  height: 290px;
+}
 
 .img-container_gallery_slideshow {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_120.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_gallery_slideshow {
   width: 298px;
-  height: 332px; }
-
+  height: 332px;
+}
 .img-container_soundcloud_embed {
-  background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_big_image_0601-e1444835248917.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 100%; }
-
+   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_big_image_0601-e1444835248917.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+ }
 .filter_size_soundcloud_embed {
   width: 298px;
-  height: 242px; }
-
+  height: 242px;
+}
 .img-container_vimeo_embed {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_image_063.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%; }
-
+  height: 100%;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 .filter_size_vimeo_embed {
   width: 298px;
-  height: 332px; }
-
+  height: 332px;
+}*/
+/*
 .triangle-wrap {
   border-bottom-width: 9px;
   border-bottom-style: solid;
-  border-bottom-color: white;
+  border-bottom-color: rgba(255,255,255, 1);
   border-right-width: 9px;
   border-right-style: solid;
   border-right-color: transparent;
   border-left-width: 9px;
   border-left-style: solid;
   border-left-color: transparent;
-  left: 46%;
+  left: 50%;
   bottom: 0;
   border-top: none;
   position: absolute;
   z-index: 101;
   width: 0;
-  height: 0; }
+  height: 0;
 
+}
+*/
 #service-container {
   height: auto;
   width: 100%;
@@ -480,6 +519,80 @@ main {
         margin: 0 auto;
         display: block; }
       #img-portfolio .img-container_block .img-container_wrapper .profile-info {
+        color: white;
+        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 35px; }
+
+.profile-name {
+  font-size: 115px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px; }
+
+#myBlog {
+  display: flex;
+  background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 700px;
+  justify-content: center; }
+  @media screen and (max-width: 1235px) {
+    #myBlog .profile-name {
+      font-size: 90px; } }
+  @media screen and (max-width: 1052px) {
+    #myBlog .profile-name {
+      font-size: 50px; } }
+  @media screen and (max-width: 700px) {
+    #myBlog .profile-name {
+      font-size: 40px; } }
+  #myBlog .img-container_block {
+    background-color: rgba(36, 36, 36, 0.28);
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    border-radius: 0.3rem;
+    width: 80%;
+    text-align: center; }
+    #myBlog .img-container_block .img-container_wrapper {
+      width: auto;
+      height: auto;
+      text-align: center;
+      margin: 20px 75px 20px 75px; }
+      #myBlog .img-container_block .img-container_wrapper .icon-container {
+        color: #e5ae47;
+        background: #ffffff;
+        border-style: solid;
+        border-color: #e0e0e0;
+        border-width: 1px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 500px;
+        font-size: 32px;
+        display: inline-block;
+        margin-top: 50px; }
+        #myBlog .img-container_block .img-container_wrapper .icon-container .service-icon {
+          height: auto;
+          width: auto;
+          padding-top: 14px; }
+      #myBlog .img-container_block .img-container_wrapper .heading-line {
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e5ae47;
+        width: 125px;
+        margin: 0 auto;
+        display: block; }
+      #myBlog .img-container_block .img-container_wrapper .profile-info {
         color: white;
         font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 16px;
