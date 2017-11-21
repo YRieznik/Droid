@@ -1,0 +1,102 @@
+.name-block {
+  font-family: Lato, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+
+}
+.name-bloc_text {
+  display: inline-block;
+  width: 100%;
+
+}
+.read-more_wrapp {
+  margin-top: 20px;
+  font-family: Lato, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #8d8d8d;
+  line-height: 23px;
+  font-weight: 500;
+}
+.standart_post {
+  width: 298px;
+  height: auto;
+  text-align: left;
+}
+.text {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.read-more_story::after {
+  content: '\bb';
+
+}
+.quote_post {
+  width: 298px;
+  height: 320px;
+  text-align: left;
+}
+.image-wrapper {
+  background-image: url(http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2014/10/content_big_image_079.jpg);
+  width: 100%;
+  height: 320px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-wrapp {
+  background-color: red;
+  width: 262px;
+  height: auto;
+  color: #333333;
+}
+.quote-author {
+  background-color: blue;
+  width: auto;
+  height: auto;
+  color: #333333;
+}
+
+.inside-text::before {
+  content: "\201d";
+  display: block;
+  font-size: 80px;
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+}
+.inside-text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 14px 17px 18px 17px;
+}
+/*.quote_bg {
+  width: 100%;
+  height: 100%;
+}*/
+/*.inside-text {
+  text-align: center;
+  color: #333333;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  //background-color: rgba(255,255,255, 0.9);
+}*/
+
+/*
+.quote-author {
+  text-align: center;
+  color: #333333;
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgba(255,255,255, 0.9);
+}*/
