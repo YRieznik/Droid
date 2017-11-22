@@ -6,6 +6,7 @@
   margin: 0 auto;
   text-align: center;
   .button {
+    outline: none;
     display: inline-block;
     padding: 10px 30px 10px 30px;
     margin-bottom: 10px;
@@ -36,23 +37,29 @@
 /* ---- isotope ---- */
 
 .grid {
-  border: 1px solid #333;
   margin: 0 auto;
   text-align: center;
   width: 70%;
   position: relative;
   .element-item {
     margin: 10px;
+    .wrapper {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      transition: transform .5s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+      .name {
+        font-size: 14px;
+      }
+    }
   }
 }
-.name {
-  font-size: 14px;
-}
-.wrapper {
-  width: auto;
-  height: auto;
 
-}
+
 /*
 .triangle-wrap {
   border-bottom-width: 9px;

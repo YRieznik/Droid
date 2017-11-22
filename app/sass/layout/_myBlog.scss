@@ -49,6 +49,16 @@
         font-size:32px;
         display:inline-block;
         margin-top: 50px;
+        .profile-name {
+          font-size: 115px;
+          font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          margin: 0;
+          padding: 0;
+          margin-top: 30px;
+        }
         .service-icon {
           height: auto;
           width: auto;
@@ -77,14 +87,4 @@
 
     }
   }
-}
-.profile-name {
-  font-size: 115px;
-  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: white;
-  margin: 0;
-  padding: 0;
-  margin-top: 30px;
 }
