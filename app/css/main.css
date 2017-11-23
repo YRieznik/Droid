@@ -4,9 +4,7 @@
   display: flex;
   justify-content: space-between;
   background: white;
-  color: white;
-  align-items: center;
-  overflow: hidden; }
+  align-items: center; }
   #header-container .logo {
     text-decoration: none;
     color: black;
@@ -717,6 +715,140 @@ main {
   cursor: pointer; }
   #cont-submit:hover {
     border: thin solid #015b7e; }
+
+#work-together {
+  display: flex;
+  background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7775-e1438928688337.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  /*@media screen and (max-width: 700px) {
+    .lets-work {
+      font-size: 40px;
+    }
+  }*/ }
+  @media screen and (max-width: 1240px) {
+    #work-together .lets-work {
+      font-size: 50px; } }
+  @media screen and (max-width: 1052px) {
+    #work-together .lets-work {
+      font-size: 40px; } }
+  #work-together .img-container_block {
+    background-color: rgba(36, 36, 36, 0.28);
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    border-radius: 0.3rem;
+    width: 80%;
+    height: 574px;
+    text-align: center; }
+    #work-together .img-container_block .img-container_wrapper {
+      width: auto;
+      height: 100%;
+      text-align: center;
+      margin: 20px 75px 20px 75px; }
+      #work-together .img-container_block .img-container_wrapper .icon-container {
+        color: #e5ae47;
+        background: #ffffff;
+        border-style: solid;
+        border-color: #e0e0e0;
+        border-width: 1px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 500px;
+        font-size: 32px;
+        display: inline-block;
+        margin-top: 50px; }
+        #work-together .img-container_block .img-container_wrapper .icon-container .service-icon {
+          height: auto;
+          width: auto;
+          padding-top: 14px; }
+      #work-together .img-container_block .img-container_wrapper .heading-line {
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e5ae47;
+        width: 125px;
+        margin: 0 auto;
+        display: block; }
+      #work-together .img-container_block .img-container_wrapper .profile-info {
+        color: white;
+        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 35px; }
+
+.button-hire {
+  width: 125px;
+  height: 55px;
+  background-color: #75d69c;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  line-height: 25px; }
+  .button-hire:hover {
+    background-color: #5cd68c; }
+
+.lets-work {
+  font-size: 70px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px; }
+
+#footer-container {
+  width: 100%;
+  height: auto; }
+  #footer-container .footer {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px; }
+
+.icons {
+  padding: 21px; }
+
+.social-link {
+  cursor: pointer; }
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */ }
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */ }
 
 body {
   padding: 0;

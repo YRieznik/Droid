@@ -8,6 +8,9 @@
     <script src="js/jquery-3.2.1.min (1).js"></script>
 </head>
 <body>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <header id="header-container">
         <a href="#" class="logo">Logo</a>
         <nav class="nav-menu">
@@ -19,7 +22,6 @@
         </nav>
     </header>
     <section id="img-container">
-
         <div class="img-container_block">
             <div class="img-container_wrapper ">
                 <div class="icon-container">
@@ -209,7 +211,7 @@
         <div class="img-container_block">
             <div class="img-container_wrapper ">
                 <div class="icon-container">
-                    <div><img src="img/case.png" class="service-icon"></div>
+                    <div><img src="img/radio.png" class="service-icon"></div>
                 </div>
 
                 <h1 class="profile-name">MY BLOG</h1>
@@ -243,9 +245,33 @@
             </div>
         </div>
     </section>
-    <main>
-        <div class="block"></div>
-    </main>
+    <section id="work-together">
+        <div class="img-container_block">
+            <div class="img-container_wrapper ">
+                <div class="icon-container">
+                    <div><img src="img/work-together.png" class="service-icon"></div>
+                </div>
+
+                <h1 class="lets-work">LETS WORK TOGETHER</h1>
+                <span class="heading-line"></span>
+                <p class="profile-info">Lorem ipsum ligula molestie ultricies fringilla nostra.</p>
+                <a class="hire-link" href="#"><button type="button" class="button-hire">Hire Me</button></a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer-container">
+        <div class="footer">
+            <a class="social-link"><img class="icons" src="img/twitter.png"></a>
+            <a class="social-link"><img class="icons" src="img/facebook.png"></a>
+            <a class="social-link"><img class="icons" src="img/vk.png"></a>
+            <a class="social-link"><img class="icons" src="img/linkedin.png"></a>
+            <p>THEME. BY Yuriy Reznik 2017 ©</p>
+        </div>
+        <div class="footer-license">
+
+        </div>
+    </footer>
+
     <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/scroll-reveal.js"></script>
@@ -254,5 +280,6 @@
     <script src="js/cdtop.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA35nYQjo9k7QQduCi8g4FP7QYEZr-csxk&callback=initMap"></script>
     <script src="js/googleMap.js"></script>
+    <script src="js/load-screen.js"></script>
 </body>
 </html>
