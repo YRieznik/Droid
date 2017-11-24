@@ -58,6 +58,16 @@
     }
   }
 }
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
 
 /*

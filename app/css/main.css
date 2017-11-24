@@ -189,6 +189,16 @@ main {
       .grid .element-item .wrapper .name {
         font-size: 14px; }
 
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both; }
+
 /*
 .triangle-wrap {
   border-bottom-width: 9px;
