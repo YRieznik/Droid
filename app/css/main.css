@@ -1,40 +1,41 @@
-#header-container {
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  background: white;
-  align-items: center; }
-  #header-container .logo {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    padding: 10px; }
-  #header-container .nav-menu {
-    font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 3px; }
-    #header-container .nav-menu ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-align: center; }
-    #header-container .nav-menu li {
-      display: inline-block;
-      text-transform: uppercase;
-      padding: 10px; }
-    #header-container .nav-menu a {
-      text-transform: uppercase;
-      text-decoration: none;
-      color: black;
-      padding: 20px 0 20px 0;
-      display: inline-block; }
-      #header-container .nav-menu a:hover {
-        background: white;
-        border-color: #333;
-        color: gray; }
+.nav-menu {
+  background: #021542;
+  text-align: center; }
+
+.ul-trigger {
+  margin: 0;
+  padding: 0; }
+
+.nav-menu_li {
+  display: inline-block; }
+
+.nav-menu_link {
+  display: block;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px 30px;
+  transition: 0.3s; }
+
+.nav-menu_link:hover {
+  color: #fff;
+  background: #FF534B;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.1);
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); }
+
+.menu-trigger {
+  color: #FF534B;
+  font-weight: bold;
+  display: none; }
+
+@media screen and (max-width: 850px) {
+  .ul-trigger {
+    display: none; }
+    .ul-trigger .nav-menu_li {
+      display: block; }
+  .menu-trigger {
+    display: block; } }
 
 main {
   border: 1px solid #333;
@@ -163,6 +164,9 @@ main {
     .button-group .button:hover {
       background-color: #EEE;
       color: #222; }
+  @media screen and (max-width: 600px) {
+    .button-group .button {
+      padding: 10px 15px 10px 15px; } }
 
 .button:active,
 .button.is-checked {
@@ -175,6 +179,7 @@ main {
 .grid {
   margin: 0 auto;
   text-align: center;
+  height: 900px;
   width: 70%;
   position: relative; }
   .grid .element-item {
