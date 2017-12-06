@@ -92,6 +92,11 @@ main {
   @media screen and (max-width: 700px) {
     #img-container .profile-name {
       font-size: 40px; } }
+  @media screen and (max-width: 385px) {
+    #img-container .profile-name {
+      font-size: 25px; }
+    #img-container .grid {
+      margin: 0; } }
   #img-container .img-container_block {
     background-color: rgba(36, 36, 36, 0.28);
     margin: 0 auto;
@@ -371,6 +376,9 @@ main {
   @media screen and (max-width: 700px) {
     #img-portfolio .profile-name {
       font-size: 40px; } }
+  @media screen and (max-width: 385px) {
+    #img-portfolio .profile-name {
+      font-size: 25px; } }
   #img-portfolio .img-container_block {
     background-color: rgba(36, 36, 36, 0.28);
     margin: 0 auto;
@@ -445,6 +453,9 @@ main {
   @media screen and (max-width: 700px) {
     #myBlog .profile-name {
       font-size: 40px; } }
+  @media screen and (max-width: 385px) {
+    #myBlog .profile-name {
+      font-size: 25px; } }
   #myBlog .img-container_block {
     background-color: rgba(36, 36, 36, 0.28);
     margin: 0 auto;
@@ -744,18 +755,16 @@ main {
   background-position: center center;
   width: 100%;
   height: auto;
-  justify-content: center;
-  /*@media screen and (max-width: 700px) {
-    .lets-work {
-      font-size: 40px;
-    }
-  }*/ }
+  justify-content: center; }
   @media screen and (max-width: 1240px) {
     #work-together .lets-work {
       font-size: 50px; } }
   @media screen and (max-width: 1052px) {
     #work-together .lets-work {
       font-size: 40px; } }
+  @media screen and (max-width: 385px) {
+    #work-together .lets-work {
+      font-size: 25px; } }
   #work-together .img-container_block {
     background-color: rgba(36, 36, 36, 0.28);
     margin: 0 auto;
