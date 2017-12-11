@@ -105,7 +105,8 @@ main {
     border-radius: 0.3rem;
     width: 80%;
     height: auto;
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
     #img-container .img-container_block .profile-icon {
       color: #e5ae47;
       background: #ffffff;
@@ -117,23 +118,29 @@ main {
       line-height: 80px;
       border-radius: 500px;
       font-size: 32px;
-      display: inline-block;
-      margin-top: 50px; }
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      display: block; }
     #img-container .img-container_block .heading-line {
       border-style: solid;
       border-bottom-width: 1px;
       border-color: #e5ae47;
-      width: 125px;
+      width: 130px;
       margin: 0 auto;
-      display: block; }
+      display: block;
+      text-align: center; }
     #img-container .img-container_block .profile-info {
       color: white;
       font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 16px;
       font-weight: 400;
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-top: 50px; }
+      /*margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 50px;*/
+      width: 80%;
+      text-align: center;
+      margin: 50px auto 50px auto; }
 
 .profile-name {
   font-size: 115px;
@@ -141,8 +148,8 @@ main {
   font-weight: 700;
   font-style: normal;
   color: white;
-  margin: 0;
-  padding: 0; }
+  margin: 0 auto;
+  display: block; }
 
 * {
   box-sizing: border-box; }
@@ -427,9 +434,7 @@ main {
   font-weight: 700;
   font-style: normal;
   color: white;
-  margin: 0;
-  padding: 0;
-  margin-top: 30px; }
+  padding: 0; }
 
 #myBlog {
   display: flex;
