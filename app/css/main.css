@@ -196,6 +196,9 @@ main {
     .button-group .button:hover {
       background-color: #EEE;
       color: #222; }
+  @media screen and (max-width: 1556px) {
+    .button-group .button-group {
+      margin-left: 200px; } }
   @media screen and (max-width: 600px) {
     .button-group .button {
       padding: 10px 15px 10px 15px; } }
@@ -265,7 +268,7 @@ main {
 
 @media screen and (max-width: 568px) {
   .grid {
-    margin-left: 130px; } }
+    margin-left: 110px; } }
 
 @media screen and (max-width: 420px) {
   .grid {
