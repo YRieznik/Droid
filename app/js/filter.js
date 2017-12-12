@@ -33,3 +33,24 @@ $('.button-group').each( function( i, buttonGroup ) {
         $( this ).addClass('is-checked');
     });
 });
+$grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
+});
+/*var columns;
+
+// set column number
+setColumns();
+
+// rerun function when window is resized
+$(window).on('resize', function() {
+    setColumns();
+});
+
+// the function to decide the number of columns
+function setColumns() {
+    if($(window).width() <= 768) {
+        columns = 2;
+    } else {
+        columns = 4;
+    }
+}*/
