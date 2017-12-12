@@ -33,6 +33,9 @@
     .button {
       padding: 10px 12px 10px 12px;
     }
+    .grid {
+      margin: 0;
+    }
   }
   @media screen and (max-width: 320px) {
     .button {
@@ -73,12 +76,7 @@
       }
     }
   }
-  /*@media screen and (max-width: 385px) {
-    .wrapper {
-      height: 100px;
-      width: 100px;
-    }
-  }*/
+
 }
 .grid:after {
   content: '';
@@ -89,6 +87,21 @@
   content: '';
   display: block;
   clear: both;
+}
+@media screen and (max-width: 420px) {
+  .grid {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .grid {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .grid {
+    margin-left: 40px;
+  }
 }
 @media screen and (max-width: 385px) {
   .wrapper {

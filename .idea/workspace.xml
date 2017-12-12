@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5911e8f6-b7e0-4374-936d-4e1fc8da3d20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/filter.js" afterPath="$PROJECT_DIR$/app/js/filter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/components/_cdtop.scss" afterPath="$PROJECT_DIR$/app/sass/components/_cdtop.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_filter.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_filter.scss" />
     </list>
@@ -35,21 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_cdtop.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_cdtop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/components/_cdtop.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
-              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_filter.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_filter.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/layout/_filter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="442">
+              <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -134,8 +131,8 @@
         <option value="$PROJECT_DIR$/app/sass/layout/_work-together.scss" />
         <option value="$PROJECT_DIR$/app/js/filter.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/components/_cdtop.scss" />
         <option value="$PROJECT_DIR$/app/sass/layout/_filter.scss" />
+        <option value="$PROJECT_DIR$/app/sass/components/_cdtop.scss" />
       </list>
     </option>
   </component>
@@ -149,8 +146,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-228" />
-    <option name="y" value="204" />
+    <option name="x" value="-217" />
+    <option name="y" value="232" />
     <option name="width" value="1722" />
     <option name="height" value="850" />
   </component>
@@ -466,15 +463,15 @@
       <workItem from="1512562761537" duration="1999000" />
       <workItem from="1512631146462" duration="4578000" />
       <workItem from="1512977097414" duration="4285000" />
-      <workItem from="1513063483137" duration="12776000" />
+      <workItem from="1513063483137" duration="14608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278721000" />
+    <option name="totallyTimeSpent" value="280553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-228" y="204" width="1722" height="850" extended-state="1" />
+    <frame x="-217" y="232" width="1722" height="850" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23974209" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -777,18 +774,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/components/_cdtop.scss">
+    <entry file="file://$PROJECT_DIR$/app/sass/layout/_filter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="442">
+          <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/layout/_filter.scss">
+    <entry file="file://$PROJECT_DIR$/app/sass/components/_cdtop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="499">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
       </provider>
