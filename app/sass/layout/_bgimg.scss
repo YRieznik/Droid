@@ -43,22 +43,7 @@
     display: flex;
     flex-direction: column;
     //justify-content: center;
-      .profile-icon {
-        color:#e5ae47;
-        background:#ffffff;
-        border-style:solid;
-        border-color:#e0e0e0;
-        border-width:1px;
-        height:130px;
-        width: 130px;
-        line-height:80px;
-        border-radius:500px;
-        font-size:32px;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        display: block;
-      }
+
       .heading-line {
         border-style: solid;
         border-bottom-width: 1px;
@@ -73,9 +58,6 @@
         font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 16px;
         font-weight: 400;
-        /*margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 50px;*/
         width: 80%;
         text-align: center;
         margin: 50px auto 50px auto;
@@ -92,8 +74,18 @@
 
   display: block;
 }
-
-
-// media for font h1
-
+.profile-icon {
+  color:#e5ae47;
+  border-style:solid;
+  border-color: white;
+  border-width:1px;
+  height:130px;
+  width: 130px;
+  line-height:80px;
+  border-radius:500px;
+  font-size:32px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
 
