@@ -88,6 +88,36 @@
   display: block;
   clear: both;
 }
+@media screen and (max-width: 1024px) {
+  .grid {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    margin-left: 235px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .grid {
+    margin-left: 210px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .grid {
+    margin-left: 170px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    margin-left: 145px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .grid {
+    margin-left: 130px;
+  }
+}
 @media screen and (max-width: 420px) {
   .grid {
     margin-left: 50px;
