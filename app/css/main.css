@@ -385,6 +385,7 @@ main {
     margin-bottom: 135px;
     border-radius: 0.3rem;
     width: 80%;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column; }
@@ -459,54 +460,53 @@ main {
     margin-bottom: 135px;
     border-radius: 0.3rem;
     width: 80%;
-    height: 574px;
-    text-align: center; }
-    #myBlog .img-container_block .img-container_wrapper {
-      width: auto;
-      height: 100%;
-      text-align: center;
-      margin: 20px 75px 20px 75px; }
-      #myBlog .img-container_block .img-container_wrapper .icon-container {
-        color: #e5ae47;
-        background: #ffffff;
-        border-style: solid;
-        border-color: #e0e0e0;
-        border-width: 1px;
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        border-radius: 500px;
-        font-size: 32px;
-        display: inline-block;
-        margin-top: 50px; }
-        #myBlog .img-container_block .img-container_wrapper .icon-container .profile-name {
-          font-size: 115px;
-          font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
-          font-weight: 700;
-          font-style: normal;
-          color: white;
-          margin: 0;
-          padding: 0;
-          margin-top: 30px; }
-        #myBlog .img-container_block .img-container_wrapper .icon-container .service-icon {
-          height: auto;
-          width: auto;
-          padding-top: 14px; }
-      #myBlog .img-container_block .img-container_wrapper .heading-line {
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-color: #e5ae47;
-        width: 125px;
-        margin: 0 auto;
-        display: block; }
-      #myBlog .img-container_block .img-container_wrapper .profile-info {
-        color: white;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+    #myBlog .img-container_block .icon-container {
+      color: #e5ae47;
+      background: #ffffff;
+      border-style: solid;
+      border-color: #e0e0e0;
+      border-width: 1px;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      border-radius: 500px;
+      font-size: 32px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px; }
+      #myBlog .img-container_block .icon-container .profile-name {
+        font-size: 115px;
         font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 35px; }
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px; }
+      #myBlog .img-container_block .icon-container .service-icon {
+        height: auto;
+        width: auto;
+        padding-top: 14px; }
+    #myBlog .img-container_block .heading-line {
+      border-style: solid;
+      border-bottom-width: 1px;
+      border-color: #e5ae47;
+      width: 125px;
+      margin: 0 auto;
+      display: block; }
+    #myBlog .img-container_block .profile-info {
+      color: white;
+      font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 35px;
+      margin-bottom: 35px; }
 
 /*.name-block {
   font-family: Lato, Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -768,45 +768,44 @@ main {
     margin-bottom: 135px;
     border-radius: 0.3rem;
     width: 80%;
-    height: 574px;
-    text-align: center; }
-    #work-together .img-container_block .img-container_wrapper {
-      width: auto;
-      height: 100%;
-      text-align: center;
-      margin: 20px 75px 20px 75px; }
-      #work-together .img-container_block .img-container_wrapper .icon-container {
-        color: #e5ae47;
-        background: #ffffff;
-        border-style: solid;
-        border-color: #e0e0e0;
-        border-width: 1px;
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        border-radius: 500px;
-        font-size: 32px;
-        display: inline-block;
-        margin-top: 50px; }
-        #work-together .img-container_block .img-container_wrapper .icon-container .service-icon {
-          height: auto;
-          width: auto;
-          padding-top: 14px; }
-      #work-together .img-container_block .img-container_wrapper .heading-line {
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-color: #e5ae47;
-        width: 125px;
-        margin: 0 auto;
-        display: block; }
-      #work-together .img-container_block .img-container_wrapper .profile-info {
-        color: white;
-        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 35px; }
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+    #work-together .img-container_block .icon-container {
+      color: #e5ae47;
+      background: #ffffff;
+      border-style: solid;
+      border-color: #e0e0e0;
+      border-width: 1px;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      border-radius: 500px;
+      font-size: 32px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px; }
+      #work-together .img-container_block .icon-container .service-icon {
+        height: auto;
+        width: auto;
+        padding-top: 14px; }
+    #work-together .img-container_block .heading-line {
+      border-style: solid;
+      border-bottom-width: 1px;
+      border-color: #e5ae47;
+      width: 125px;
+      margin: 0 auto;
+      display: block; }
+    #work-together .img-container_block .profile-info {
+      color: white;
+      font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 35px;
+      margin-bottom: 15px; }
 
 .button-hire {
   width: 125px;
@@ -815,6 +814,7 @@ main {
   cursor: pointer;
   border: none;
   margin-top: 30px;
+  margin-bottom: 35px;
   font-size: 18px;
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;

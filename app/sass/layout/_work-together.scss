@@ -29,15 +29,10 @@
     margin-bottom: 135px;
     border-radius: 0.3rem;
     width: 80%;
-    height: 574px;
+    height: auto;
     text-align: center;
-
-
-    .img-container_wrapper {
-      width: auto;
-      height: 100%;
-      text-align: center;
-      margin: 20px 75px 20px 75px;
+    display: flex;
+    flex-direction: column;
       .icon-container {
         color:#e5ae47;
         background:#ffffff;
@@ -49,9 +44,9 @@
         line-height:80px;
         border-radius:500px;
         font-size:32px;
-        display:inline-block;
-        margin-top: 50px;
-
+        display:block;
+        margin: 0 auto;
+        margin-top: 30px;
         .service-icon {
           height: auto;
           width: auto;
@@ -76,9 +71,8 @@
         margin-left: 25px;
         margin-right: 25px;
         margin-top: 35px;
+        margin-bottom: 15px;
       }
-
-    }
   }
 }
 .button-hire {
@@ -88,6 +82,7 @@
   cursor: pointer;
   border: none;
   margin-top: 30px;
+  margin-bottom: 35px;
   font-size: 18px;
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
